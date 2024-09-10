@@ -10,8 +10,7 @@ An interactive JavaScript calendar that allows users to view, add, edit, and del
 - **Navigation**: Easily navigate between months and years using dropdowns or navigation buttons.
 - **Local Storage**: Events are saved in the browser's local storage, allowing data persistence across page reloads.
 
-![Screenshot 2024-09-10 110859](https://github.com/user-attachments/assets/dcce0273-5f6e-4760-8edf-12ea56c94352)
-
+<img src="https://github.com/user-attachments/assets/dcce0273-5f6e-4760-8edf-12ea56c94352" alt="Calendar Screenshot" width="600" height="400">
 
 ## How to Use
 
