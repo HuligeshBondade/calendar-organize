@@ -23,10 +23,3 @@ An interactive JavaScript calendar that allows users to view, add, edit, and del
 ## [Live Demo](https://calendar-organize.netlify.app/)
 
 Check out the live version of the calendar [here](https://calendar-organize.netlify.app/).
-
-## Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-
