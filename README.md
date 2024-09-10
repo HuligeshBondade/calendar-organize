@@ -20,6 +20,10 @@ An interactive JavaScript calendar that allows users to view, add, edit, and del
 4. Use the search bar to find specific events, which will highlight matching dates on the calendar.
 5. Save events to keep them in the calendar, or edit/delete them as needed.
 
+## [Live Demo](https://calendar-organize.netlify.app/)
+
+Check out the live version of the calendar [here](https://calendar-organize.netlify.app/).
+
 ## Setup
 
 1. Clone the repository:
