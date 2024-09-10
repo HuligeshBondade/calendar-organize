@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calendar-container">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search events..." />
+            <div class="event-navigation">
+                <!-- Buttons for event navigation -->
+                <button id="prevEvent">Prev</button>
+                <button id="nextEvent">Next</button>
+            </div>
+        </div>
+        <div class="calendar-header">
+            <button id="prevMonth">&lt;</button>
+            <select id="monthSelect"></select>
+            <select id="yearSelect"></select>
+            <button id="nextMonth">&gt;</button>
+            <div class="calendar-header">
+                <button id="todayButton">Today</button> 
+            </div>
+        </div>
+        <div class="month-year" id="monthYear"></div>
+        <div class="calendar-weekdays">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+        </div>
+        <div class="calendar-days" id="calendarDays"></div>
+    </div>
+
+    <!-- Event Modal -->
+    <div id="eventModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Add Event</h2>
+            <input type="text" id="eventTitle" placeholder="Event Title">
+            <button id="saveEvent">Save Event</button>
+        </div>
+    </div>
+
+    <!-- Event Details Modal -->
+<div id="eventDetailsModal" class="modal">
+    <div class="modal-content">
+        <span class="close-details-btn">&times;</span>
+        <h2>Event Details</h2>
+        <div id="eventDetails"></div>
+        <button id="editEvent">Edit</button>
+        <button id="deleteEvent">Delete</button>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
